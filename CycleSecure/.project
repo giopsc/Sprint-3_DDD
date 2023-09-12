@@ -3,6 +3,11 @@
 	<name>CycleSecure</name>
 	<comment></comment>
 	<projects>
+		<dependency>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>ojdbc10</artifactId>
+			<version>19.3.0.0</version>
+		</dependency>
 	</projects>
 	<buildSpec>
 		<buildCommand>

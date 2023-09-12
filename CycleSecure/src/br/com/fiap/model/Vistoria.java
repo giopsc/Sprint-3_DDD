@@ -13,7 +13,7 @@ public class Vistoria {
 		
 		// Sequencia: Chassi, roda dianteira, guidão e quadro
 		
-		System.out.println(" ---- Iniciando processo de vistoria... ----\n 1. Posicione sua bike em um lugar com boa iluminação, e se possível com fundo neutro.\n2. Tire uma foto do Chassi de sua bike\n3. Tire uma foto da roda dianteira da sua bike.\n4. Tire uma foto do guidão da sua bike.\n 5. Para finalizar, tire uma foto do quadro da sua bike.");
+		System.out.println(" ---- Iniciando processo de vistoria... ----\n1. Posicione sua bike em um lugar com boa iluminação, e se possível com fundo neutro.\n2. Tire uma foto do Chassi de sua bike\n3. Tire uma foto da roda dianteira da sua bike.\n4. Tire uma foto do guidão da sua bike.\n5. Para finalizar, tire uma foto do quadro da sua bike.\n");
 		
 	}
 	

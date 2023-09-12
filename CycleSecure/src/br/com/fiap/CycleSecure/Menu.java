@@ -12,11 +12,13 @@ public class Menu {
 	// Futuramente: transformar classes em records
 
 	public static void main(String[] args) {
-		menu();
+		
+		var menu = new Menu();
+		menu.menu();
 		// bike.cadastrarBike();
 	}
 
-	public static void menu(){
+	public void menu(){
 		// Realizar cadastro, Vistoria, Cadastrar bike
 		Scanner scan = new Scanner(System.in);
 		System.out.println(" ---- CycleSecure ---- \n1. Cadastrar-se.\n2. Realizar vistoria.\n3. Cadastrar bike.\n4. Sair do sistema");
@@ -36,6 +38,7 @@ public class Menu {
 				bike.cadastrarBike();
 				break;
 			case "4":
+				System.out.println("\nSaindo do sistema...\n");
 				break;
 			default:
 				System.out.println("Opção inválida!");

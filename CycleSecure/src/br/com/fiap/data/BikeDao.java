@@ -16,7 +16,7 @@ public class BikeDao {
     
     public void inserir(Bike bike) throws SQLException {
         var conexao = DriverManager.getConnection(URL, USER, PASS);
-        var sql = "INSERT INTO BICICLETA(MODELO, MARCA, ANO, PRECO, NUMERO_SERIE, TIPO, ID_CLIENTE) VALUES  (?, ?, ?, ?, ?, ?, ?)";
+        var sql = "INSERT INTO BICICLETA(MODELO, MARCA, ANO, PRECO, NUMERO_SERIE, TIPO) VALUES  (?, ?, ?, ?, ?, ?)";
         var comando = conexao.prepareStatement(sql);
         comando.setString(1, bike.getModelo());
         comando.setString(2, bike.getMarca());
@@ -24,7 +24,6 @@ public class BikeDao {
         comando.setInt(4, bike.getValor());
         comando.setString(5, bike.getChassi());
         comando.setString(6, bike.getCategoria());
-        comando.setInt(7, 1);
         comando.executeUpdate();
         comando.close();
     }

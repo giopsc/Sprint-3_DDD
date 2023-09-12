@@ -26,7 +26,7 @@ public class Bike{
     // TIPO VARCHAR(30) NOT NULL,
     // ID_CLIENTE INTEGER REFERENCES CLIENTE (ID_CLIENTE)
 
-    public Bike () {
+    public Bike() {
     }
 
     public void cadastrarBike(){
@@ -64,9 +64,7 @@ public class Bike{
         }
         
         scan.close();
-
     }
-
 
     public int getAno() {
         return ano;
@@ -75,7 +73,6 @@ public class Bike{
     public void setAno(int ano) {
         this.ano = ano;
     }
-
 
     public int getIdBike() {
     return idBike;
@@ -148,4 +145,4 @@ public class Bike{
     public void setAcidente(String acidente) {
         this.acidente = acidente;
     }
-    }
+}

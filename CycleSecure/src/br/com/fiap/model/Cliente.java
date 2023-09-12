@@ -50,16 +50,17 @@ public class Cliente {
 	public int getIdCliente() {
 		return idCliente;
 	}
+
+	public void setIdCliente(int idCliente){
+		this.idCliente = idCliente;
+	}
+
 	public String getNome() {
 		return nome;
 	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-	
-
-	public void setIdCliente(int idCliente) {
-		this.idCliente = idCliente;
 	}
 
 	public String getEmail() {
@@ -73,21 +74,27 @@ public class Cliente {
 	public String getDataNascimento() {
 		return dataNascimento;
 	}
+
 	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+
 	public String getCpf() {
 		return cpf;
 	}
+
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+
 	public String getEndereco() {
 		return endereco;
 	}
+
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+	
 	public String getSenha() {
 		return senha;
 	}
