@@ -12,7 +12,6 @@ public class Menu {
 	// Futuramente: transformar classes em records
 
 	public static void main(String[] args) {
-		
 		var menu = new Menu();
 		menu.menu();
 		// bike.cadastrarBike();

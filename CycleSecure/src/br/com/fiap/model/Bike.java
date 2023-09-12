@@ -55,12 +55,14 @@ public class Bike{
         bike.setModificacao(scan.nextLine());
         System.out.print("Sua Bike ja sofreu algum acidente? ");
         bike.setAcidente(scan.nextLine());
+
+        System.out.println(bike);
         
         try {
             novaBike.inserir(bike);
             System.out.println("Bike cadastrada com sucesso!");
         } catch (Exception e) {
-            System.out.println("Erro, bike não cadastrada!");
+            System.out.println(e.getMessage());
         }
         
         scan.close();
