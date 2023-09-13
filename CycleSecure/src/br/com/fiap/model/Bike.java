@@ -55,8 +55,6 @@ public class Bike{
         bike.setModificacao(scan.nextLine());
         System.out.print("Sua Bike ja sofreu algum acidente? ");
         bike.setAcidente(scan.nextLine());
-
-        System.out.println(bike);
         
         try {
             novaBike.inserir(bike);
